@@ -1,0 +1,11 @@
+# Vagrant files
+
+.vagrant
+docroot
+
+
+
+# Miscellaneous files
+
+.bundle
+.DS_Store

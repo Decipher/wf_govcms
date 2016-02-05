@@ -1,0 +1,11 @@
+---
+# Beetbox settings.
+beet_domain: "wf-govcms.local"
+beet_root: "{{ beet_base }}/docroot"
+beet_site_name: "govCMS - Wysiwyg Fields edition"
+
+# Drupal settings.
+drupal_build_makefile: yes
+drupal_makefile_path: "{{ beet_base }}/wf-govcms.make.yml"
+drupal_install_site: yes
+drupal_install_profile: govcms
